@@ -27,8 +27,8 @@ class GFG {
 class Solution {
     static int sumOfNaturals(int n) {
         long sum= (long)n*(n+1)/2;
-        long re = (long)sum%1000000007;
-        // return (int)(sum%(long)1000000007;/
-        return (int)re;
+        //long re = (long)sum%1000000007;
+        return (int)((long)(sum%1000000007));
+        //return (int)re;
     }
 };
